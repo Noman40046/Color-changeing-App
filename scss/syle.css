@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+}
+
 .nav-center {
   display: flex;
   justify-content: space-around;
@@ -27,8 +31,8 @@
 }
 
 main {
-  width: 500px;
-  height: 200px;
+  width: 800px;
+  height: 500px;
   top: 0;
   bottom: 0;
   left: 0;
@@ -39,10 +43,18 @@ main {
   justify-content: center;
   align-items: center;
 }
-main .container {
+main .changebackground {
   text-align: center;
+  background-color: green;
+  width: 700px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
 }
-main .container h2 {
+main .changebackground h2 {
   border: none;
   padding: 20px;
   border-radius: 10px;
@@ -50,7 +62,7 @@ main .container h2 {
   background-color: rgba(0, 0, 0, 0.403);
   color: white;
 }
-main .container button {
+main .changebackground button {
   padding: 10px;
   border-radius: 10px;
   background-color: orange;

@@ -11,7 +11,8 @@ btn.addEventListener("click", function(){
     }
     
     color.textContent = hexColor;
-    document.body.style.backgroundColor = hexColor;
+    const changebackground = document.querySelector(".changebackground");
+    changebackground.style.backgroundColor = hexColor;
 });
 
 function getRandomNumbers(){
